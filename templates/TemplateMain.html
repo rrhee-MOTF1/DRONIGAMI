@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>MoDSAR DT Local Utility</Title>
+	</head>
+	<body style="background-color:#2c3a86;
+		padding-right:75px;
+		padding-left:75px;
+		padding-bottom:75px">
+		<div style="background-color:#f8d06a">
+			<p style="padding-top:5px;
+				text-align:center;
+				padding-bottom:5px;
+				padding-left:45px;
+				padding-right:45px">
+					<a href="http://127.0.0.1:8080/init" style="padding-right:10px; padding-left:10px">Initialize</a>
+					<a href="http://127.0.0.1:8080/rcode" style="padding-right:10px; padding-left:10px">Mission from Radio Code</a>
+					<a href="http://127.0.0.1:8080/stest" style="padding-right:10px; padding-left:10px">Script Test</a>
+					<a href="http://127.0.01:8080/admin/func001" style="padding-right:10px; padding-left:10px">Admin Functions</a>
+			</p>
+		</div>
+		<div>
+			<div style="background-color:#f8d06a;
+				padding-top:25px;
+				padding-bottom:25px;
+				padding-right:50px;
+				padding-left:50px"
+			>
+				<h1 style="text-align:center">MoDSAR Data Tech Folderator</h1>
+			</div>
+			<br>
+			<div style="background-color:#f8d06a;
+				padding-top:25px;
+				padding-bottom:25px;
+				padding-right:50px;
+				padding-left:50px">
+				<h2 style="padding-left:55px;
+					padding-right:55px"
+				>Return Message:</h2>
+				<p style="padding-left:55px;
+					padding-right:55px">{{ ret_txt|safe }}</p>
+				<br>
+				<hr style="height:3px;
+					color:#2c3a86;
+					background-color:#2c3a86;
+					border-color:#2c3a86">
+				<br>
+				<h2 style="padding-left:55px;
+					padding-right:55px">Further Actions:</h2>
+				<p style="padding-left:55px;
+					padding-right:55px">{{ act_txt|safe }}</p>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div>
+			<image src="static/DSARLOGO.png"  width="332" height="282.25" alt="DSAR Logo" style="display: block;
+				margin-left: auto; 
+				margin-right: auto;
+				width:"332">
+		</div>
+	</body>
+</html>

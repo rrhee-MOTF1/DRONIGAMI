@@ -1,0 +1,15 @@
+code, fold_list, parse1, parse2
+100,uUAS;/pictures_Raw_Data;/pictures_PII_Blur;/pictures_GIS_Data,RECON,UNSPECIFIED UAS
+101,DJI_M30;/pictures_Raw_Data;/pictures_PII_Blur;/pictures_GIS_Data,RECON,DJI M30
+200,uUAS;/pictures_Raw_Data;/videos_Raw_Data;/pictures_PII_Blur;/pictures_GIS_Data,PRIMARY,UNSPECIFIED UAS
+201,DJI_M30;/pictures_Raw_Data;/videos_Raw_Data;/pictures_PII_Blur;/pictures_GIS_Data,PRIMARY,DJI M30
+300,uUAS;/pictures_Raw_Data;/videos_Raw_Data;/pictures_PII_Blur;/pictures_GIS_Data,TARGETED,UNSPECIFIED UAS
+301,DJI_M30;/pictures_Raw_Data;/videos_Raw_Data;/pictures_PII_Blur;/pictures_GIS_Data,TARGETED,DJI M30
+400,uUAS;/pictures_Raw_Data;/pictures_GTag;/GTIFF;/PDF,MAPPING,UNSPECIFIED UAS
+401,DJI_M30;/pictures_Raw_Data;/GTIFF;/PDF,MAPPING,DJI M30
+402,WingtraOne;/pictures_Raw_Data;/pictures_GTag;/GTIFF;/PDF,MAPPING,WINGTRA ONE
+403,eBeeX;/pictures_Raw_Data;/pictures_GTag;/GTIFF;/PDF,MAPPING,EBEE X
+500,uUAS;/pictures_Raw_Data;/videos_Raw_Data;/pictures_PII_Blur;/pictures_GIS_Data,TECHNICAL,UNSPECIFIED UAS
+501,DJI_M30;/pictures_Raw_Data;/videos_Raw_Data;/pictures_PII_Blur;/pictures_GIS_Data,TECHNICAL,DJI M30
+600,uUAS;/pictures_Raw_Data;/videos_Raw_Data;/pictures_PII_Blur,LIVEFEED,UNSPECIFIED UAS
+601,DJI_M30;/pictures_Raw_Data;/videos_Raw_Data;/pictures_PII_Blur,LIVEFEED,DJI M30
