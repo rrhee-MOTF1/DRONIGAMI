@@ -11,3 +11,4 @@ Cloning:
 5. Navigate to "C:\DRONIGAMI" in Windows File Explorer
 6. Double click on "install" to run the install batch file
 7. DRONIGAMI should have added a new DRONIGAMI_RUN task in Task Scheduler to start automatically the next time you log in
+8. To enable autostart on non-admin accounts on the computer, open "Task Scheduler" and find the DRONIGAMI_RUNN task. Click on "Properties" and check "Run whether user is logged in or not" and uncheck "Do not store password...". Check "Run with higest privelages". Enter credentials when prompted.
