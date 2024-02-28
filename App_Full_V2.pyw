@@ -3,6 +3,7 @@ from datetime import datetime as dt
 import os
 import pandas
 
+print("DO NOT CLOSE THIS WINDOW. DRONIGAMI IS IN DEV BUILD. THIS WINDOW MEANS THAT THE PROGRAM IS RUNNING. MINIMIZE THIS WINDOW.")
 
 date = dt.now().strftime("%Y%m%d")
 
