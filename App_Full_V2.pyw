@@ -52,7 +52,7 @@ def access_param():
         fold_str = str(cv)[10:13]
         opt_list_code = []
         opt_list_name = []
-        with open(r"C:\Users\rrhee\Desktop\DSAR_Local_Tools\Structure_List.csv") as csv:
+        with open(r"C:\DRONIGAMI\Structure_List.csv") as csv:
             reader = pandas.read_csv(csv)
             for i in range(len(reader)):
                 code = str(reader.values[i][0])
@@ -154,7 +154,7 @@ def create_craft_fold():
                                        ret_txt='Folders Already Exist. Current folders are listed below:<br>{}'.format(flight_list2),
                                        act_txt = '<a href="{}?craft={}&fold={}&incid={}&team={}&cv={}&dupe_chk=1">Click here</a> to add an additional flight for this craft. <a href="/mission?incid={}&team={}&cv={}">Click here</a> to return to mission assignment'.format(new_flight_path, craft, fold, incid, team, cv, incid, team, cv))
             else:
-                with open(r"C:\Users\rrhee\Desktop\DSAR_Local_Tools\Structure_List.csv") as csv:
+                with open(r"C:\DRONIGAMI\Structure_List.csv") as csv:
                     reader = pandas.read_csv(csv)
                     for i in range(len(reader)):
                         code = str(reader.values[i][0])
@@ -193,7 +193,7 @@ def create_craft_fold():
     elif dupe_chk == '1':
         with open(os.path.join(mission_fold, '_DONOTDELETE_process_track.txt'), 'r') as p_check:
             checklist = p_check.readlines()
-        with open(r"C:\Users\rrhee\Desktop\DSAR_Local_Tools\Structure_List.csv") as csv:
+        with open(r"C:\DRONIGAMI\Structure_List.csv") as csv:
             reader = pandas.read_csv(csv)
             for i in range(len(reader)):
                 code = str(reader.values[i][0])
