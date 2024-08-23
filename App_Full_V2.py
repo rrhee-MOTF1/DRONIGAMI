@@ -51,7 +51,7 @@ def access_param():
         fold_str = str(cv)[10:13]
         opt_list_code = []
         opt_list_name = []
-        with open(r"C:\Users\rrhee\Desktop\DSAR_Local_Tools\Structure_List.csv") as csv:
+        with open(r"C:\DRONIGAMI\Structure_List.csv") as csv:
             reader = pandas.read_csv(csv)
             for i in range(len(reader)):
                 code = str(reader.values[i][0])
